@@ -1,134 +1,110 @@
 {
   "contacts" : [ 
-  {
-    "contactId": 6,
-    "agencyId": 2,
-    "firstName": "TestCaptain",
-    "lastName": "TestAmerica",
-    "businessUnit": "test 2 business unit",
-    "title": "test title 6",
-    "homePhone": "9123456789",
-    "cellPhone": "2345678509",
-    "workPhone": "3456789909",
-    "extension": "1234",
-    "workCellPhone": "512345659",
-    "email": "test.testLast6@test.com",
-    "createdTime": "2019-07-17T10:25:34.558803",
-    "modifiedTime": "2019-OCT-31 12:00:00",
-    "logicalDeleteDate": "0001-01-01T00:00:00",
-    "uuid": "1c3433ef-8fe9-4aec-88fa-dff2efc690cf",
-    "agency": {
-      "agencyId": 2,
-      "authenticationTypeId": 1,
-      "agencyName": "Test Agency 2",
-      "createdTime": "2019-07-17T10:25:34.5575953",
-      "modifiedTime": "0001-01-01T00:00:00",
-      "logicalDeleteDate": "0001-01-01T00:00:00",
-      "uuid": "b60e548e-e710-40d5-bf76-ba46a91bd5d2",
-      "authenticationTypes": null,
-      "agencyCustomField": null,
-      "contact": null,
-      "user": null,
-      "securityLevel": null
-    },
-    "customValue": [
-      {
-        "customValueId": 4,
+{
         "contactId": 6,
-        "customFieldId": 1,
-        "answerText": "text answer 2",
-        "createdTime": "2019-07-17T10:25:30.558977",
+        "agencyId": 2,
+        "firstName": "CaptainTest",
+        "lastName": "AmericaTestLast6",
+        "businessUnit": "test 2 business unit",
+        "title": "test title 6",
+        "homePhone": "5188675309",
+        "cellPhone": "5188675309",
+        "workPhone": "5188675309",
+        "extension": null,
+        "workCellPhone": "5188675309",
+        "email": "test.testLast6@test.com",
+        "createdTime": "2019-07-17T10:25:35.558803",
         "modifiedTime": "0001-01-01T00:00:00",
-        "logicalDeleteDate": "0001-01-01T00:00:00",
-        "uuid": "f2635c64-98ff-43c9-be58-a69c912b66d2",
-        "customField": {
-          "customFieldId": 1,
-          "securityLevelId": 1,
-          "fieldType": "text",
-          "fieldText": "Text Field",
-          "choiceOptions": null,
-          "isRequired": "n",
-          "createdTime": "2019-07-17T10:25:30.5583192",
-          "modifiedTime": "0001-01-01T00:00:00",
-          "logicalDeleteDate": "0001-01-01T00:00:00",
-          "uuid": "1e8538dc-074f-4786-a52b-0d1263f4d06c",
-          "customValue": null,
-          "agencyCustomField": null
-        }
-      },
-      {
-        "customValueId": 5,
-        "contactId": 6,
-        "customFieldId": 2,
-        "answerText": "test 1",
-        "createdTime": "2019-07-17T10:25:31.5589776",
-        "modifiedTime": "0001-01-01T00:00:00",
-        "logicalDeleteDate": "0001-01-01T00:00:00",
-        "uuid": "8d9382b6-b46d-4694-90f0-a105469e1e55",
-        "customField": {
-          "customFieldId": 2,
-          "securityLevelId": 2,
-          "fieldType": "choice",
-          "fieldText": "Choice Field",
-          "choiceOptions": "test 1, test 2, test 3",
-          "isRequired": "n",
-          "createdTime": "2019-07-17T10:25:31.5583796",
-          "modifiedTime": null,
-          "logicalDeleteDate": "0001-01-01T00:00:00",
-          "uuid": "719929ad-4c57-4c20-8057-828c891a7d22",
-          "customValue": null,
-          "agencyCustomField": null
-        }
-      },
-      {
-        "customValueId": 6,
-        "contactId": 6,
-        "customFieldId": 3,
-        "answerText": "this is a test text box answer.  it should be long 2",
-        "createdTime": "2019-07-17T10:25:32.5589779",
-        "modifiedTime": "0001-01-01T00:00:00",
-        "logicalDeleteDate": "0001-01-01T00:00:00",
-        "uuid": "2c3eb21f-67b7-4e6f-9365-20a96a8244d2",
-        "customField": {
-          "customFieldId": 3,
-          "securityLevelId": 3,
-          "fieldType": "textbox",
-          "fieldText": "Text Box",
-          "choiceOptions": null,
-          "isRequired": "n",
-          "createdTime": "2019-07-17T10:25:32.5583814",
-          "modifiedTime": "0001-01-01T00:00:00",
-          "logicalDeleteDate": null,
-          "uuid": "8486d48f-3630-4a2f-800f-2be9a646b654",
-          "customValue": null,
-          "agencyCustomField": null
-        }
-      },
-      {
-        "customValueId": 8,
-        "contactId": 6,
-        "customFieldId": 3,
-        "answerText": "resr",
-        "createdTime": "2019-07-17T10:25:33.5589746",
-        "modifiedTime": "2019-07-17T10:25:34.5589746",
-        "logicalDeleteDate": "2019-07-17T10:25:34.5589746",
-        "uuid": "47110f87-635d-42a1-8a60-293414b57596",
-        "customField": {
-          "customFieldId": 3,
-          "securityLevelId": 3,
-          "fieldType": "textbox",
-          "fieldText": "Text Box",
-          "choiceOptions": null,
-          "isRequired": "n",
-          "createdTime": "2019-07-17T10:25:33.5583814",
-          "modifiedTime": "0001-01-01T00:00:00",
-          "logicalDeleteDate": "0001-01-01T00:00:00",
-          "uuid": "8486d48f-3630-4a2f-800f-2be9a646b654",
-          "customValue": null,
-          "agencyCustomField": null
-        }
-      }
-    ]
-  }
+        "logicalDeleteDate": null,
+        "uuid": "1c3433ef-8fe9-4aec-88fa-dff2efc690cf",
+        "agency": {
+            "agencyId": 2,
+            "authenticationTypeId": 1,
+            "agencyName": "Test Agency 2",
+            "createdTime": "2019-07-17T10:25:36.5575953",
+            "modifiedTime": "0001-01-01T00:00:00",
+            "logicalDeleteDate": "0001-01-01T00:00:00",
+            "uuid": "b60e548e-e710-40d5-bf76-ba46a91bd5d2",
+            "authenticationTypes": null,
+            "agencyCustomField": null,
+            "contact": null,
+            "user": null,
+            "securityLevel": null
+        },
+        "customValue": [
+            {
+                "customValueId": 4,
+                "contactId": 6,
+                "customFieldId": 1,
+                "answerText": "captain text answer 200",
+                "createdTime": "2019-07-17T10:25:37.558977",
+                "modifiedTime": "0001-01-01T00:00:00",
+                "logicalDeleteDate": "0001-01-01T00:00:00",
+                "uuid": "f2635c64-98ff-43c9-be58-a69c912b66d2",
+                "customField": {
+                    "customFieldId": 1,
+                    "securityLevelId": 1,
+                    "fieldType": "text",
+                    "fieldText": "Captain Text Field",
+                    "choiceOptions": null,
+                    "isRequired": "n",
+                    "createdTime": "2019-07-17T10:25:38.5583192",
+                    "modifiedTime": "0001-01-01T00:00:00",
+                    "logicalDeleteDate": "0001-01-01T00:00:00",
+                    "uuid": "1e8538dc-074f-4786-a52b-0d1263f4d06c",
+                    "customValue": null,
+                    "agencyCustomField": null
+                }
+            },
+            {
+                "customValueId": 5,
+                "contactId": 6,
+                "customFieldId": 2,
+                "answerText": "Captain test 100",
+                "createdTime": "2019-07-17T10:25:35.5589776",
+                "modifiedTime": "0001-01-01T00:00:00",
+                "logicalDeleteDate": "0001-01-01T00:00:00",
+                "uuid": "8d9382b6-b46d-4694-90f0-a105469e1e55",
+                "customField": {
+                    "customFieldId": 2,
+                    "securityLevelId": 2,
+                    "fieldType": "choice",
+                    "fieldText": "Captain Choice Field",
+                    "choiceOptions": "test 1, test 2, test 3",
+                    "isRequired": "n",
+                    "createdTime": "2019-07-17T10:25:39.5583796",
+                    "modifiedTime": "0001-01-01T00:00:00",
+                    "logicalDeleteDate": "0001-01-01T00:00:00",
+                    "uuid": "719929ad-4c57-4c20-8057-828c891a7d22",
+                    "customValue": null,
+                    "agencyCustomField": null
+                }
+            },
+            {
+                "customValueId": 6,
+                "contactId": 6,
+                "customFieldId": 3,
+                "answerText": "Captain this short",
+                "createdTime": "2019-07-17T10:25:34.5589779",
+                "modifiedTime": "0001-01-01T00:00:00",
+                "logicalDeleteDate": "0001-01-01T00:00:00",
+                "uuid": "2c3eb21f-67b7-4e6f-9365-20a96a8244d2",
+                "customField": {
+                    "customFieldId": 3,
+                    "securityLevelId": 3,
+                    "fieldType": "textbox",
+                    "fieldText": "Captain Text Box",
+                    "choiceOptions": null,
+                    "isRequired": "n",
+                    "createdTime": "2019-07-17T10:25:44.5583814",
+                    "modifiedTime": "0001-01-01T00:00:00",
+                    "logicalDeleteDate": "0001-01-01T00:00:00",
+                    "uuid": "8486d48f-3630-4a2f-800f-2be9a646b654",
+                    "customValue": null,
+                    "agencyCustomField": null
+                }
+            }
+        ]
+}
 ]
 }
